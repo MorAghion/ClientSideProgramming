@@ -1,0 +1,120 @@
+
+
+@font-face
+{
+    font-family: mail;
+    src: url('mail.ttf');
+}
+
+body{
+    background-image: url('a2.jpg');
+    font-family: mail;
+}
+
+@media only screen and (min-width: 768px){
+#list  {
+    background-color: #fffc;
+    background: 0.2;
+    border: 3px solid #0D0D0C;
+    padding: 2em;
+    margin: auto;
+    width: 59em;
+    height: 25em;
+    margin-top: 1.5em;
+    overflow-y: auto;
+    border-radius: 12px;
+}
+}
+
+@media only screen and (max-width: 768px){
+    #list  {
+        background-color: #fffc;
+        background: 0.2;
+        border: 3px solid #0D0D0C;
+        padding: 2em;
+        margin: auto;
+        width: 70%;
+        height: 25em;
+        margin-top: 1.5em;
+        overflow-y: auto;
+        border-radius: 12px;
+    }
+    }
+
+    
+@media only screen and (min-width: 768px){
+.myFooter
+{
+    background-color: #fffc;
+    background: 0.2;
+    border: 3px solid #0D0D0C;
+    padding: 1em;
+    margin: auto;
+        margin-top: auto;
+    width: 61em;
+    height: 3em;
+    margin-top: 3em;
+    border-radius: 12px;
+
+}
+}
+
+@media only screen and (max-width: 768px){
+    .myFooter
+    {
+        background-color: #fffc;
+        background: 0.2;
+        border: 3px solid #0D0D0C;
+        padding: 1em;
+        margin: auto;
+            margin-top: auto;
+        width: 87%;
+        height: 3em;
+        margin-top: 3em;
+        border-radius: 12px;
+    
+    }
+    }
+
+#logo{
+    text-align: center;
+    font-size: 7.5em;
+    margin: 0;
+    color: #d0396c;
+    -webkit-text-stroke: #5d0b26;
+    -webkit-text-stroke-width: 2px;
+}
+
+#footerPrice{
+    font-size: 1.5em;
+    margin: unset;
+    color: #d0396c;
+}
+
+@media only screen and (max-width: 768px){
+#removeAll{
+    position: absolute; 
+    right:7%;
+}
+}
+
+@media only screen and (min-width: 768px){
+#removeAll{
+    position: absolute; 
+    right:22%;
+}
+}
+
+@media only screen and (max-width: 768px){
+#appInfo{
+    display: none;
+}
+}
+
+@media only screen and (min-width: 768px){
+    #appInfo{
+        font-size: 125%;
+        margin: 0;
+        margin-bottom: 2%;
+    }
+    }
